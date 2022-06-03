@@ -1,0 +1,103 @@
+
+}
+@media only screen and (max-width: 991px) {
+    /* For tablet phones: */
+    about-details h4{
+        display:block;
+    }
+    about-image{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    html{
+        font-size: 80%;
+    }
+    about-image .img-thumbnail{
+        display: block;
+        width: 250px!important;
+        height: 250px;
+        border-radius: 50%;
+        margin: auto;
+        object-fit: cover;
+    }
+
+}
+@media only screen and (max-width: 568px) {
+
+    .navbar .nav-link::after{
+        width: 96%!important;
+    }
+    .fa-search{
+        color: #080808!important;
+    }
+    .fa-user{
+        color: rgb(0, 0, 0)!important;
+    }
+    .fa-user:hover{
+        color: rgb(255, 255, 255)!important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    /* For small devices: */
+
+    .fa-search{
+        color: #080808!important;
+    }
+    .fa-user{
+        color: rgb(0, 0, 0)!important;
+    }
+    .fa-user:hover{
+        color: rgb(255, 255, 255)!important;
+    }
+    /* navbar end */
+    
+    
+    .about-bg h1{
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    .about-details h3{
+        font-size: 1.3rem!important;
+        transition: .3s;
+    }
+    /* about section end */
+
+    .service-bg h2{
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    /* service section end */
+
+    .carousel-bg h2 {
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    .feedback-box .title-right {
+        margin-top: 0;
+    }
+    /* carousel section end */
+
+    .portfolio-bg h2 {
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    /* portfolio section end */
+
+    .blog-bg h2 {
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    /* blog section end */
+    
+    .contact-bg .contact-p{
+        font-size: 14px;
+        color: #212529!important;
+    }
+    .contact-bg h2 {
+        font-size: 2rem!important;
+        transition: .3s ease;
+    }
+    /* contact section end */
+
+}
